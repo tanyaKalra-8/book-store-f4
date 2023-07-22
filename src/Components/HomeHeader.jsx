@@ -28,7 +28,7 @@ const HomeHeader = ({setInfo}) => {
 
     useEffect(()=>{
         getInfo();
-    },[] );
+    },[getInfo]);
 
     return (
         <div>
