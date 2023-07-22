@@ -1,0 +1,58 @@
+*{
+    background-color: #242121;
+}
+p{
+    color: aliceblue;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 30px;
+    /* border: 1px solid red; */
+    height: 260px;
+    overflow-y: hidden;
+    margin: 30px;
+    column-gap: 30px;
+}
+.parent{
+    display: flex;
+    /* width: 30%; */
+    height: 300px;
+    justify-content: space-between;
+    color: white;
+    /* border: 1px solid blue; */
+}
+.child img{
+    height: 100%;
+    width: 200px;
+
+}
+.child1 p{
+    height: 150px;
+    overflow-y:hidden;
+}
+.child1{
+    padding-left: 30px;
+}
+.child1 button{
+    margin-left: 30%;
+    border: 1px solid white;
+    background-color: #242121;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+}
+.moreBooks{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 20px 40px;
+    row-gap: 30px;
+}
+.moreBooksContainer h2{
+    padding: 20px 40px;
+    color: aliceblue;
+}
+.moreBooks img{
+    height: 100%;
+    width: 150px;
+}
